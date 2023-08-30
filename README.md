@@ -1,9 +1,14 @@
 # BankingOperations
 This is a Basic Banking Operations statements written in Python . It allows users to perform basic banking operations such as creating accounts, deposit and withdrawal of funds, checking account balances, and transferring funds between accounts in the system.
 
+## Classes Created
+- BankAccount - all basic functions of the acoount(creation , deposit , withdrawal) are within this class
+- SavingsAccount - creates savings account  based on user input by inheriting from BankAccount
+- CurrentAccount - creates current account based on user input by inheriting from BankAccount
+
 
 ## Features
-- Creates Savings and Current accounts
+- Creates accounts (Savings and Current)
 - Deposit funds 
 - Withdrawal of funds
 - Checking account balance
@@ -11,7 +16,7 @@ This is a Basic Banking Operations statements written in Python . It allows user
 
 
 ## Usage
-1. Run the program: 
+1. Run the program in your compiler: 
 2. Choose from the available operations in the menu:
    - Create Account
    - Deposit
