@@ -1,5 +1,5 @@
-# BankingApplication
-This is a Basic Banking Operations written in Python . It allows users to perform basic banking operations such as creating accounts, deposit and withdrawal of funds, checking account balances, and transferring funds between accounts in the system.
+# BankingOperations
+This is a Basic Banking Operations statements written in Python . It allows users to perform basic banking operations such as creating accounts, deposit and withdrawal of funds, checking account balances, and transferring funds between accounts in the system.
 
 
 ## Features
