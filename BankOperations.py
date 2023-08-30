@@ -1,10 +1,10 @@
 class BankAccount:
-# Constructor to initialize a BankAccount instance.
+# Constructor to initialize a BankAccount.
     def __init__(self, account_num, account_holder):
         self.account_num = account_num  
         self.account_holder = account_holder  
         self.balance = 0.0
-    #assigning date when account opens
+    #assigning date of account opening
         from datetime import date  
         today = date.today()
         self.date = today
@@ -52,7 +52,7 @@ class CurrentAccount(BankAccount):
         
 
 
-# dict. to store account instances.
+# dictionary to store account details.
 accounts = {}  
 
 while True:
